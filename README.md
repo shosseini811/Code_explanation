@@ -1,7 +1,9 @@
 **Python Code Explanation with OpenAI API**
+
 This repository contains a script that leverages OpenAI's GPT-4 model to automatically generate explanations for Python code from a GitHub repository. The script processes each line of code, obtains an explanation using the GPT-4 model, and appends the explanation as comments to a new output file. This can be an invaluable tool for developers looking to understand and document complex code, making projects more accessible to others.
 
 **Features**
+
 Imports and processes Python files from a GitHub repository
 Generates explanations for each line of code using OpenAI's GPT-4 model
 Saves the explained code as new files with explanations as comments
@@ -9,10 +11,12 @@ Supports recursive search for Python files in subdirectories
 Prints progress messages to the console during processing
 
 **Requirements**
+
 Python 3.6 or higher
 Libraries: os, glob, spacy, git, openai, dotenv, and BeautifulSoup
 
 **Usage**
+
 Set up your environment variables in a .env file with your OpenAI API key.
 Modify the repo_url, main_file_path, repo_path, and output_base_path variables in the script to match your desired repository and local paths.
 Run the script, which will clone the specified GitHub repository, process each Python file, and generate explanations for each line of code.
