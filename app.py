@@ -27,8 +27,8 @@ def get_code_explanation(code):
     return response.choices[0].text.strip()
 
 repo_url = "https://github.com/shosseini811/AI-ML-Engineer"
-main_file_path = "/Users/soheilhosseini/Google Drive/Resume/TowardsDataScience/OpenAI_Project"
-repo_path = "/Users/soheilhosseini/Google Drive/Resume/TowardsDataScience/OpenAI_Project/Cloned_Repo"
+main_file_path = "your_main_file_path"
+repo_path = "your_repo_path"
 
 if not os.path.exists(repo_path):
     os.makedirs(repo_path)
